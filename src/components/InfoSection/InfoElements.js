@@ -72,7 +72,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-    color: ${({ lightTop}) => (lightTop ? '#00FFFF' : '#010606')};
+    color: ${({ lightTop}) => (lightTop ? '#F50000' : '#536DFE')};
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;
