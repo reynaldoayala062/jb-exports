@@ -5,9 +5,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route path="/" components={Home} exact/>
-      </Switch>
+      <Home/>
     </Router>
   );
 }
