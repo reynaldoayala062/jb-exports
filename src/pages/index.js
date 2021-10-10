@@ -1,6 +1,8 @@
-import React, {useState} from 'react'
-import Home from '../components/Home'
+import React, {useState} from 'react';
+import Home from '../components/Home';
 import NavBar from '../components/NavBar';
+import InfoSection from '../components/InfoSection';
+import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/data';
 
 const HomePage = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -13,6 +15,9 @@ const HomePage = () => {
         <>
             <NavBar/>
             <Home/>
+            <InfoSection {...homeObjOne} /> 
+            <InfoSection {...homeObjTwo} /> 
+            <InfoSection {...homeObjThree} /> 
         </>
             
     )
