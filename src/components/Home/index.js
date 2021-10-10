@@ -1,6 +1,6 @@
 import React from 'react'
-import { ButtonLink } from ''
-import {HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper} from ''
+// import { ButtonLink } from ''
+import {HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper} from './HomeElements'
 
 const Home = () => {
     return (
@@ -12,9 +12,9 @@ const Home = () => {
                <HeroH1></HeroH1>
                <HeroP></HeroP>
                <HeroBtnWrapper>
-                   <ButtonLink>
+                   {/* <ButtonLink>
 
-                   </ButtonLink>
+                   </ButtonLink> */}
                </HeroBtnWrapper>
            </HeroContent>
             
