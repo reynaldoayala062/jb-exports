@@ -4,7 +4,7 @@ import Icon2 from '../../Images/Dove-Logo.png'
 import Icon3 from '../../Images/texas instrument logo.png'
 import Icon4 from '../../Images/Apple Logo.png'
 import Icon5 from '../../Images/BSN logo.png'
-import Icon6 from '../../Images/ring logo.png'
+import Icon6 from '../../Images/Garnier_logo.png'
 import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP } from './ServicesElements'
 
 
