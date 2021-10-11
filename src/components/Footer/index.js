@@ -20,7 +20,7 @@ const Footer = () => {
                 </SocialMedia>
             </FooterWrap>
             <SocialLogo to='/' onClick={toggleHome}> 
-                <BsFillArrowUpSquareFill color="red" size="1.5em"/>
+                <BsFillArrowUpSquareFill color="red" size="2em"/>
             </SocialLogo>
         </FooterContainer>
     )
