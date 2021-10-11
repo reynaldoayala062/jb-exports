@@ -17,7 +17,7 @@ const Home = () => {
            </HeroBg>
            <HeroContent>
                <HeroH1>Anywhere anytime</HeroH1>
-               <HeroP>Serving over around the world</HeroP>
+               <HeroP>Serving around the world</HeroP>
                <HeroBtnWrapper>
                </HeroBtnWrapper>
            </HeroContent>
