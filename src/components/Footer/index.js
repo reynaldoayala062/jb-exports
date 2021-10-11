@@ -18,23 +18,6 @@ const Footer = () => {
                         </SocialLogo>
                         <WebsiteRights> ©{new Date().getFullYear()} JB Export All Rights Reserved</WebsiteRights>
                         <WebsiteRights> Created by Rey Talks Tech</WebsiteRights>
-                        {/* <SocialIcons>
-                            <SocialIconLink href="//www.facebook.com/profile.php?id=100004277175364" target="_blank" aria-label="Facebook">
-                                <FaFacebook/>
-                            </SocialIconLink>
-                            <SocialIconLink href="//www.instagram.com/reytalkstech/" target="_blank" aria-label="Instagram">
-                                <FaInstagram/>
-                            </SocialIconLink>
-                            <SocialIconLink href="//www.youtube.com/channel/UClF70456tB11P5BP5zxNfHw" target="_blank" aria-label="Youtube">
-                                <FaYoutube/>
-                            </SocialIconLink>
-                            <SocialIconLink href="//www.linkedin.com/in/reynaldo-ayala-1b18b172/" target="_blank" aria-label="LinkedIn">
-                                <FaLinkedin/>
-                            </SocialIconLink>
-                            <SocialIconLink href="//www.github.com/reynaldoayala062" target="_blank" aria-label="LinkedIn">
-                                <FaGithub/>
-                            </SocialIconLink>
-                        </SocialIcons> */}
                     </SocialMediaWrap>
                 </SocialMedia>
             </FooterWrap>
