@@ -75,6 +75,7 @@ export const SocialMediaWrap = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
     max-width: 1100px;
     margin: 40px auto 0 auto;
 
@@ -85,14 +86,14 @@ export const SocialMediaWrap = styled.div`
 
 export const SocialLogo = styled(Link)`
     color: #fff;
-    justify-content: start;
+    justify-content: flex-end;
     cursor: pointer;
     text-decoration: none;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-bottom: 16px;
     font-weight: bold;
+    margin-right: 50px;
 `;
 
 export const WebsiteRights = styled.small`
@@ -113,20 +114,20 @@ export const SocialIconLink = styled.a`
 `;
 
 export const UpButton = styled.div`
-    border-radius: 20px;
     background: #F50000;
     white-space: nowrap;
-    padding: 12px 25px;
+    padding: 16px 20px;
     color: #000;
     font-size: 16px;
     outline: none;
-    border: none;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
+    border: solid red;
+
 
     &:hover {
         transition: all 0.2s ease-in-out;
