@@ -1,10 +1,10 @@
 import React from 'react'
 import Icon1 from '../../Images/crocs logo.png'
-import Icon2 from '../../Images/Coleman-Logo.jpeg'
-import Icon3 from '../../Images/musclepharm logo.jpeg'
+import Icon2 from '../../Images/Dove-Logo.png'
+import Icon3 from '../../Images/KEURIG Logo.jpeg'
 import Icon4 from '../../Images/Apple Logo.png'
 import Icon5 from '../../Images/BSN logo.png'
-import Icon6 from '../../Images/Optimum-Nutrition-Logo.jpeg'
+import Icon6 from '../../Images/ring logo.png'
 import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP } from './ServicesElements'
 
 
