@@ -67,7 +67,7 @@ export const ServicesIcon = styled.img`
     width: 50%;
 
     @media screen and (max-width: 1080px) {
-        width: 35%;
+        width: 30%;
     }
 `;
 
