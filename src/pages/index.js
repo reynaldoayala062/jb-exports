@@ -6,6 +6,7 @@ import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/
 import Footer from '../components/Footer'
 import Services from '../components/Services';
 import SideBar from '../components/Sidebar';
+import ImgSection from '../components/ImgSection'
 
 const HomePage = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -23,6 +24,7 @@ const HomePage = () => {
             <InfoSection {...homeObjTwo} /> 
             <Services />
             <InfoSection {...homeObjThree} /> 
+            <ImgSection />
             <Footer />
         </>
             

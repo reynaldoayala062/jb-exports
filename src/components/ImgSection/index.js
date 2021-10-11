@@ -1,5 +1,6 @@
 import { React, useState } from 'react'
-import {HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, Img} from './HomeElements'
+import {HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, Img} from './ImgElements'
+
 
 const Home = () => {
 
@@ -12,11 +13,11 @@ const Home = () => {
     return (
         <HeroContainer id="home">
            <HeroBg>
-               <VideoBg autoPlay={true} loop={true} controls={false} playsInline muted src='https://jb-exports.s3.us-east-2.amazonaws.com/pexels-polina-tankilevitch-5585939.mp4'> </VideoBg>
+               <Img src = {require('../../Images/pexels-kelly-lacy-6572431.jpg').default} alt=''/>
            </HeroBg>
            <HeroContent>
-               <HeroH1>Jb Exports</HeroH1>
-               <HeroP>Making online shopping easy</HeroP>
+               <HeroH1>Anywhere anytime</HeroH1>
+               <HeroP>Serving over around the world</HeroP>
                <HeroBtnWrapper>
                </HeroBtnWrapper>
            </HeroContent>

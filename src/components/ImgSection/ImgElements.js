@@ -98,4 +98,5 @@ export const Img = styled.img`
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
+    filter: brightness(50%);
 `;
