@@ -14,7 +14,7 @@ export const homeObjOne = {
     dark: true,
     primary: true,
     darkText: false,
-    url: "https://reys-portfolio.s3.us-east-2.amazonaws.com/Reynaldo_A_Resume.pdf"
+    url: ""
 };
 
 export const homeObjTwo = {
@@ -33,7 +33,7 @@ export const homeObjTwo = {
     dark: false,
     primary: false,
     darkText: true,
-    url: "//www.youtube.com/channel/UClF70456tB11P5BP5zxNfHw"
+    url: ""
 };
 
 export const homeObjThree = {
@@ -52,5 +52,5 @@ export const homeObjThree = {
     dark: true,
     primary: true,
     darkText: false,
-    url: "//reynaldo-ayala.medium.com/"
+    url: ""
 };
