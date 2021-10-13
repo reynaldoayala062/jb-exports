@@ -13,7 +13,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                             <TopLine lightTop={lightTop} > {topLine}</TopLine>
                             <Heading lightText={lightText}>{headline}</Heading>
                             <Subtitle darkText={darkText}>{description}</Subtitle>
-                            <BtnWrap>
+                            {/* <BtnWrap>
                                 <Button
                                 href={url}
                                 target="_blank"
@@ -27,7 +27,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                                 dark2={dark2 ? 1 : 0}
 
                                 >{buttonLabel}</Button>
-                            </BtnWrap>
+                            </BtnWrap> */}
                         </TextWrapper>
                         </Column1>
                         <Column2>
