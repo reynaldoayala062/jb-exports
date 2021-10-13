@@ -45,7 +45,12 @@ export const SocialLogo = styled(Link)`
     margin-right: 50px;
 `;
 
-export const WebsiteRights = styled.small`
+export const WebsiteRights = styled.a`
     color: #fff;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+
+    &:hover {
+        color: red;
+    }
 `;
